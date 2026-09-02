@@ -1,7 +1,7 @@
 import readLine from "readline-sync";
 import {Livro} from "./src/models/Livro.js";
 
-const ObjLivro = new Livro("Homem-Aranha",160);
+const ObjLivro = new Livro("Homem-Aranha", 160);
 
 console.log(ObjLivro.getTitulo);
 console.log(ObjLivro.getPaginas);
